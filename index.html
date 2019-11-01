@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+	
+			
+		<meta charset="utf-8">
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/JavaScript" src="js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="js/easel.js"></script>
+		<script type="text/javascript" src="js/easeljs/filters/Filter.js"></script>
+		<script type="text/javascript" src="js/easeljs/filters/ColorFilter.js"></script>
+		<script type="text/javascript" src="js/tween.js"></script>
+		<script type="text/javascript" src="js/CanvasCarousel.js"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function() 
+			{
+				var cc = new CanvasCarousel("myCanvas", "load/config.xml");
+			});
+		</script>
+	</head>
+	<body bgcolor="#222222">
+		
+		<table>
+			<tr colspan="2">
+			
+			<div class="section d-flex flex-column">
+    <div class="d-flex align-items-center py-5" style="min-height: 400px; background: url('images/') no-repeat center; background-size: cover;">
+        <div class="container">
+            <div class="py-5 text-center">
+                <h1 class="display-4 font-weight-800 text-uppercase text-white mb-n1">Black Talk Jazz</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb breadcrumb-light-1 justify-content-center mb-0">
+                        <li class="breadcrumb-item text-uppercase"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item text-uppercase"><a href="#">Category</a></li>
+                        <li class="breadcrumb-item text-uppercase active" aria-current="page">Page single</li>
+                    </ol>
+                </nav>
+                <div class="mt-4 pt-1">
+                    <a href="#" role="button" class="btn btn-round btn-gray-shadow btn-icon-only btn-facebook btn-sm m-0"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" role="button" class="btn btn-round btn-gray-shadow btn-icon-only btn-twitter btn-sm mx-1 mb-0"><i class="fab fa-twitter"></i></a>
+                    <a href="#" role="button" class="btn btn-round btn-gray-shadow btn-icon-only btn-dribbble btn-sm m-0"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+				
+			</tr>
+			<tr colspan=2 align="center"><h1>Black Talk Jazz</h1></tr>
+			<tr colspan=2><h2>Professional Polygot Programming</h2></tr>
+      <tr colspan=2><p align="center">Front Office Digitization | Full Stack Development | Cloud Migration | Automation</p></tr>
+			
+		</table>
+		
+		<table><tr><td><canvas id="myCanvas"></canvas></td><td> <p> </p></td></tr></table>
+		<hr>				
+	</body>
+</html>
